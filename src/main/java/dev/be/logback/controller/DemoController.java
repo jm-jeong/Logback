@@ -18,9 +18,9 @@ public class DemoController {
         log.warn("log --> WARN");
         log.error("log --> ERROR");
 
-        if (true) {
-            throw new RuntimeException();
-        }
+        // if (true) {
+        //     throw new RuntimeException();
+        // }
 
         return "Hello";
     }

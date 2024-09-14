@@ -17,10 +17,10 @@ public class QueryController1 {
         log.info("log --> INFO");
         log.warn("log --> WARN");
         log.error("log --> ERROR");
-
-        if (true) {
-            throw new RuntimeException();
-        }
+        //
+        // if (true) {
+        //     throw new RuntimeException();
+        // }
 
         return "Query";
     }
